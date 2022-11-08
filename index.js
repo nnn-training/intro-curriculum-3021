@@ -9,8 +9,8 @@ const basic = auth.basic({
 });
 
 const server = http.createServer(basic.check((req, res) => {
-    router.route(req, res);
-  }))
+  router.route(req, res);
+}))
   .on('error', e => {
     console.error('Server Error', e);
   })
