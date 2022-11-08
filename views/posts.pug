@@ -12,7 +12,8 @@ html(lang="ja")
       div
         button(type="submit") 送信
 
-    h2 投稿一覧
-    each content in contents
-      p #{content}
-      hr
+    unless contents.length == 0
+      h2 投稿一覧
+      each content in contents
+        p #{content}
+        hr
