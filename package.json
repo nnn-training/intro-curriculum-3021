@@ -10,5 +10,6 @@
   "dependencies": {
     "http-auth": "4.2.0",
     "pug": "3.0.3"
-  }
+  },
+  "repository": "git@github.com:chazuke-ueta/intro-curriculum-3021.git"
 }
