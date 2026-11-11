@@ -18,7 +18,7 @@ const server = http.createServer(basic.check((req, res) => {
     console.error('Client Error', e);
   });
 
-const port = 8000;
+const port = 8100;
 server.listen(port, () => {
   console.info(`Listening on ${port}`);
 });
